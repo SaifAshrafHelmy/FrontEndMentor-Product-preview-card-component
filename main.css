@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+
+}
+.parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+}
+
+
+.card{
+  
+  height: 450px;
+  width: 600px;
+  display: flex;
+  justify-content: left;
+
+}
+.p_image{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.description{
+  background-color: white;
+  width: 100%;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 35px;
+}
+.info{
+  margin-top: 10px;
+}
+.n1{
+  color:hsl(228, 12%, 48%);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.n2{
+  color: hsl(212, 21%, 14%);
+  font-size: 32px;
+  font-family: 'Fraunces', serif;
+}
+
+.n3{
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', serif;
+  font-weight: 500;
+  margin-top: 20px;
+
+}
+.n4{
+  color: hsl(158, 36%, 37%);
+  margin-top: 30px;
+  font-size: 36px;
+  font-family: 'Fraunces', serif;
+  position: relative;
+
+}
+.crossed_price{
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  font-size: 12px;
+  position: absolute;
+  top: 30%;
+  right: 10%;
+}
+.n5 button{
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Montserrat', serif;
+  font-weight: 700;
+}
+.n5 button:hover{
+  background-color: hsl(157, 62%, 17%);
+  cursor: pointer;
+
+}
+.n5 button img{
+  margin-right: 10px;
+}
+
+
